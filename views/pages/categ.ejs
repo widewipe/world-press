@@ -1,0 +1,153 @@
+<%- include('../partials/header') %> <%- include('navbar') %>
+
+<section id="category">
+  <h1><%= cat.charAt(1).toUpperCase() + cat.substring(2) %> News</h1>
+
+  <div class="newslist">
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[0].url %>">
+        <img src="<%= data.articles[0].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[0].title.length < 20) { %> <%=
+          data.articles[0].title %> <% } else { %> <%=
+          data.articles[0].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[0].description < 500) { %> <%=
+          data.articles[0].description %> <% } else { %> <%=
+          data.articles[0].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[1].url %>">
+        <img src="<%= data.articles[1].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[1].title.length < 20) { %> <%=
+          data.articles[1].title %> <% } else { %> <%=
+          data.articles[1].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[1].description < 500) { %> <%=
+          data.articles[1].description %> <% } else { %> <%=
+          data.articles[1].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[2].url %>">
+        <img src="<%= data.articles[2].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[2].title.length < 20) { %> <%=
+          data.articles[2].title %> <% } else { %> <%=
+          data.articles[2].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[2].description < 500) { %> <%=
+          data.articles[2].description %> <% } else { %> <%=
+          data.articles[2].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[3].url %>">
+        <img src="<%= data.articles[3].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[3].title.length < 20) { %> <%=
+          data.articles[3].title %> <% } else { %> <%=
+          data.articles[3].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[3].description < 500) { %> <%=
+          data.articles[3].description %> <% } else { %> <%=
+          data.articles[3].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[4].url %>">
+        <img src="<%= data.articles[4].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[4].title.length < 20) { %> <%=
+          data.articles[4].title %> <% } else { %> <%=
+          data.articles[4].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[4].description < 500) { %> <%=
+          data.articles[4].description %> <% } else { %> <%=
+          data.articles[4].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[5].url %>">
+        <img src="<%= data.articles[5].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[5].title.length < 20) { %> <%=
+          data.articles[5].title %> <% } else { %> <%=
+          data.articles[5].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[5].description < 500) { %> <%=
+          data.articles[5].description %> <% } else { %> <%=
+          data.articles[5].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[6].url %>">
+        <img src="<%= data.articles[6].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[6].title.length < 20) { %> <%=
+          data.articles[6].title %> <% } else { %> <%=
+          data.articles[6].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[6].description < 500) { %> <%=
+          data.articles[6].description %> <% } else { %> <%=
+          data.articles[6].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[7].url %>">
+        <img src="<%= data.articles[7].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[7].title.length < 20) { %> <%=
+          data.articles[7].title %> <% } else { %> <%=
+          data.articles[7].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[7].description < 500) { %> <%=
+          data.articles[7].description %> <% } else { %> <%=
+          data.articles[7].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+
+    <div class="news">
+      <a target="_blank" href="<%= data.articles[8].url %>">
+        <img src="<%= data.articles[8].image %>" alt="news image" />
+        <h1 class="nh">
+          <% if (data.articles[8].title.length < 20) { %> <%=
+          data.articles[8].title %> <% } else { %> <%=
+          data.articles[8].title.substring(0, 20) + '...' %> <% } %>
+        </h1>
+        <p class="np">
+          <% if (data.articles[8].description < 500) { %> <%=
+          data.articles[8].description %> <% } else { %> <%=
+          data.articles[8].description.substring(0, 500) + '...' %> <% } %>
+        </p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<%- include('../partials/footer') %>
