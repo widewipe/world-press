@@ -2,7 +2,7 @@ const exp = require("express");
 const path = require("path");
 const ejs = require("ejs");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = exp();
 app.use(exp.static(path.join(__dirname + "/public")));
 app.set("view engine", "ejs");
