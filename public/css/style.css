@@ -157,7 +157,7 @@ header {
   margin-bottom: 150px;
 }
 
-#category h1 {
+#category > h1 {
   margin-left: 30px;
   margin-bottom: 75px;
   font-size: 2.5rem;
